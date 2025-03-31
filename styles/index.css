@@ -1,0 +1,15 @@
+.links .task1-link, .links .task2-link {
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+}
+
+.links {
+    width: 140px;
+    justify-self: center;
+}
+
+.task1-link:hover, .task1-link:focus, .task2-link:hover, .task2-link:focus {
+    text-decoration: underline;
+    color: green
+}

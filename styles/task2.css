@@ -1,0 +1,85 @@
+:root {
+    --table-text-color: #000;
+}
+
+.topic, .task-topic {
+    justify-self: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    justify-self: center;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+.math:hover {
+    color: #FF5733;
+}
+
+.ua-language:focus {
+    color: #2980B9;
+}
+
+.ua-language {
+    text-decoration: none;
+    color: var(--table-text-color);
+}
+
+.ukr-history {
+    text-decoration: none;
+    color: var(--table-text-color);
+}
+
+.ukr-history:focus {
+    color: #27AE60;
+    text-decoration: none;
+}
+
+.w-history {
+    text-decoration: none;
+    color: var(--table-text-color);
+}
+
+.w-history:visited {
+    color: #E67E22;
+}
+
+.no {
+    margin-left: 15px;
+}
+
+.no:checked + p {
+    color: green;
+}
+
+
+.b-1 td:first-child {
+    background-color: #F0E68C;
+}
+
+.b-1 td:last-child {
+    background-color: #ADD8E6;
+}
+
+.b-1 td:only-child {
+    border: 2px solid #FF0000;
+}
+
+.b-1 td:empty {
+    background-color: #D3D3D3;
+}
+
+.b-1 td:not(:first-child) {
+    border-left: 2px dashed #000;
+}
+
+.b-1 td:nth-child(4), .b-5 td:nth-child(1), .b-6 td:nth-child(5), .b-7 td:nth-child(2) {
+    color: #8E44AD;
+}
