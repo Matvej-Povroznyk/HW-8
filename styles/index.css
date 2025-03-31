@@ -1,11 +1,11 @@
 .task1-link, .task2-link {
     text-decoration: none;
     color: #808080;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .links {
-    width: 200px;
+    width: 240px;
     justify-self: center;
 }
 
